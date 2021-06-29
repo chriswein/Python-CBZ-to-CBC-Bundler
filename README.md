@@ -1,4 +1,4 @@
-# Python CBC Bundling Script
+# Python CBZ to CBC Bundling Script
 
 This project bundles cbz files into one big cbc file for easier reading on your eReader device of choice.
 CBC Files are compatabile with [calibre](https://calibre-ebook.com/) via drag and drop.

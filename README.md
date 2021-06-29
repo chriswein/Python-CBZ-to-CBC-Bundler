@@ -3,9 +3,11 @@
 This project bundles cbz files into one big cbc file for easier reading on your eReader device of choice.
 CBC Files are compatabile with [calibre](https://calibre-ebook.com/) via drag and drop.
 
-## Features
+## What is a CBC file?
 
-It only does this:
+> A comic book collection is a .cbc file. A .cbc file is a ZIP file that contains other CBZ/CBR files. In addition the .cbc file must contain a simple text file called comics.txt, encoded in UTF-8. The comics.txt file must contain a list of the comics files inside the .cbc file, in the form filename:title
+
+[Source](https://manual.calibre-ebook.com/de/conversion.html)
 
 
 ## Motivation

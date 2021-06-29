@@ -22,10 +22,7 @@ class merge():
         return onlycbz
 
     def get_names(self, files):
-        names = files
-        for ele in [".cbz", ".CBZ"]:
-            names = list(map(lambda x: x.replace(ele, ""), names))
-        return names
+        return [f[:-4] for f in files]
 
     def create_comics_txt(self, files, names):
         zipped = (list(zip(files, names)))
